@@ -40,15 +40,16 @@ function Cipher() {
         <div>
             <input
                 type="text"
+                className="textInput"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 placeholder="Enter text here"
             />
 
-            <button onClick={handleEncrypt}>Encrypt</button>
-            <button onClick={handleDecrypt}>Decrypt</button>
+            <button className="btn1" onClick={handleEncrypt}>Encrypt</button>
+            <button className="btn2" onClick={handleDecrypt}>Decrypt</button>
 
-            <p>Result: {result}</p>
+            <p className="outputText">Result: {result}</p>
 
         </div>
     )
