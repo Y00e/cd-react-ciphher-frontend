@@ -6,7 +6,7 @@ function Cipher() {
     const [text, setText] = useState("");
     const [result, setResult] = useState("");
 
-
+    // handle encryption call from server
     const handleEncrypt = async () => {
         try {
             const response = await axios.post('http://192.168.0.11:8080/api/cipher/encrypt',
