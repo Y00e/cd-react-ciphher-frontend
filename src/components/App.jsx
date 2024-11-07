@@ -6,10 +6,9 @@ function App() {
 
   return (
       <>
-          <div>
-              <h1>Cipher App</h1>
-              <Cipher/>
-          </div>
+        <h1>Cipher App</h1>
+        <Cipher/>
+        
       </>
   )
 }
