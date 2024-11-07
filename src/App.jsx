@@ -1,5 +1,5 @@
 import '../styles/App.css'
-import Cipher from './Cipher';
+import Cipher from './components/Cipher';
 
 
 function App() {
