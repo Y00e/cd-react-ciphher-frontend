@@ -20,7 +20,7 @@ function Cipher() {
             console.error(error);
         }
     }
-
+    // handle decrypt method call
     const handleDecrypt = async () => {
         try {
             const response = await axios.post('http://192.168.0.11:8080/api/cipher/decrypt',
@@ -36,7 +36,7 @@ function Cipher() {
         }
     }
 
-    
+
     return (
         <div>
             <input
