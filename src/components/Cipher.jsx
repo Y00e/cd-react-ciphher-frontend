@@ -36,6 +36,7 @@ function Cipher() {
         }
     }
 
+    
     return (
         <div>
             <input
